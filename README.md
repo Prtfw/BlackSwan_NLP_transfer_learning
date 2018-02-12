@@ -9,4 +9,4 @@ Allows you to customize "off the shelf embeddings" via a transfer learning train
 
 ## In my case: 
 Word2Vec was customized via a multilabel/multficlass classification problem to predict "tags/topics" in a email corpus.
-The customized corpus then was used to improve perfromance on a different classification task using the same corpus.
+The customized embeddings was then used to improve perfromance on a different classification task using the same corpus.
