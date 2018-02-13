@@ -1,8 +1,8 @@
 # BlackSwan
-Being Right when it Really Matters. #NLP #transferLearning
+Being Right when it Really Matters. #imbalancedData #NLP #transferLearning
 
 
-This is sanitized code (due to NDA) from a project for a startup. 
+This is sanitized code (due to NDA) developed in collaboration/for a startup. 
 
 ## What the code does:
 Allows you to customize "off the shelf embeddings" via transfer learning training tasks.
@@ -17,6 +17,6 @@ INIT_COST_WEIGHTS[2,1]=1
 We are applying a 15x penalty to anything that classified to class 0 from true class 2. 
 
 ## In my case: 
-Word2Vec was customized via a multilabel/multficlass classification problem to predict "tags/topics" in an email corpus.
+Word2Vec was customized via a multi-label/multi-class classification problem to predict "tags/topics" in an email corpus.
 
 The customized embeddings was then used to improve perfromance on a different classification task using the same corpus.
