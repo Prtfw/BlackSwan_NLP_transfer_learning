@@ -10,29 +10,6 @@ import functools
 from gensim.models.keyedvectors import KeyedVectors
 import _config
 
-'''
-
-
-
-'''
-# CSVPATH = "./mixmax_cleaned_2.csv"
-# DEFAULT_EMBEDDING_PATH = "../GoogleNews-vectors-negative300.bin.gz"
-#
-#
-# EMBEDDING_DIM = 300
-# MAX_SEQUENCE_LENGTH = 1000
-# VALIDATION_SPLIT=.4
-# # LABEL = 'tier'
-# VALIDATION_SPLIT = .2
-# EMB_TRAIN_TASK = {'dfcolumn': 'tags', 'is_categorical': True, 'min_count': 20 }
-#
-# INIT_COST_WEIGHTS = np.ones((3,3))
-# INIT_COST_WEIGHTS[1,0]=5
-# INIT_COST_WEIGHTS[2,0]=15
-# INIT_COST_WEIGHTS[2,1]=1
-# DEFAULT_EMBEDDING_INDEX = KeyedVectors.load_word2vec_format(DEFAULT_EMBEDDING_PATH, binary=True)
-
-
 def ConvNet(embeddings, max_sequence_length, num_words, embedding_dim, labels_index, predSet, compileSet, trainable=True, extra_conv=False):
     """
     This is a simple convnet
