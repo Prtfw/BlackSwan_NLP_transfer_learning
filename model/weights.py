@@ -1,7 +1,18 @@
 import pickle
+import _config
 
 
 def save_embedding_weights(emb_name, embeddingModel):
+    '''
+    This saves the trained embedding weights to file
+
+    Params
+    ----------
+    emb_name: array, the file name into which to save the weights
+    embeddingModel: keras model instance, the model with which we trained the embeddings
+    ----------
+    return: array, the embeddings that were saved as an array
+    '''
     names = [weight.name for layer in embeddingModel.layers for weight in layer.weights]
     embeddingModelWeights = embeddingModel.get_weights()
 
