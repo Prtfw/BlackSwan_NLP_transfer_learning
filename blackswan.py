@@ -30,10 +30,10 @@ if __name__ == "__main__":
 
     '''
     # uncomment following block to train and save custom embdding weights
-
-    embeddingModel.fit(x_train_emb, y_train_emb, validation_data=(x_val_emb, y_val_emb), epochs=1, batch_size=32)
-    trained_emb = weights.save_embedding_weights(_config.PATHS['EMB_PATH'], embeddingModel)
     '''
+    # embeddingModel.fit(x_train_emb, y_train_emb, validation_data=(x_val_emb, y_val_emb), epochs=1, batch_size=32)
+    # trained_emb = weights.save_embedding_weights(_config.PATHS['EMB_PATH'], embeddingModel)
+
 
     '''
     # uncomment to load saved custom embeddings
