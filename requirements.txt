@@ -9,7 +9,7 @@ sklearn==0.0
 tensorflow==1.6.0rc0
 absl-py==0.1.10
 astor==0.6.2
-bleach==1.5.0
+bleach==3.3.0
 boto==2.48.0
 boto3==1.5.30
 botocore==1.8.44
